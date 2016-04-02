@@ -1,0 +1,13 @@
+{
+"name": "GeekBot",
+"version": "1.0",
+"manifest_version": 2,
+ "minimum_chrome_version": "23",
+"app": {
+	"launch": {
+		"local_path": "index.html"
+	}
+},
+"content_security_policy": "script-src 'self'; object-src 'self'; unsafe-inline",
+"permissions": ["tts", "http://labs.geeek.org/*"]
+}
